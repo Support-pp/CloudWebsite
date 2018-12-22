@@ -1,0 +1,30 @@
+.impressum{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 1920px;
+    height: 318px;
+    margin: 0 auto;
+    max-height: 100%;
+    background-image: url("../../assets/avi-richards-183715-unsplash.jpg")
+}
+.slider_title {
+    color: #fff;
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 36px;
+}
+
+.padding5{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
