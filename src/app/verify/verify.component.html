@@ -1,0 +1,10 @@
+
+<div class="container">
+
+    <img *ngIf="!VerifyError" class="center-2" src="../../assets/Spin-1.5s-200px.gif">
+
+    <div class="alert alert-danger center-2" *ngIf="VerifyError" role="alert">
+        Error, the validate link is wrong. Please contact the support team!
+        <br>support@support-pp.cloud
+    </div>
+</div>

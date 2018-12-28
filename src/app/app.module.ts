@@ -12,6 +12,9 @@ import { PriceComponent } from './price/price.component';
 import { HelpComponent } from './help/help.component';
 
 import {HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { RegisterOkComponent } from './register-ok/register-ok.component';
+import { VerifyComponent } from './verify/verify.component';
 
 @NgModule({
   declarations: [
@@ -22,12 +25,15 @@ import {HttpClientModule} from '@angular/common/http';
     GetStartedComponent,
     PriceComponent,
     HelpComponent,
+    RegisterOkComponent,
+    VerifyComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReCaptchaModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
