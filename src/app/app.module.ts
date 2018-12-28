@@ -11,6 +11,8 @@ import { ReCaptchaModule } from 'angular2-recaptcha';
 import { PriceComponent } from './price/price.component';
 import { HelpComponent } from './help/help.component';
 
+import {HttpClientModule} from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +26,8 @@ import { HelpComponent } from './help/help.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReCaptchaModule
+    ReCaptchaModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
